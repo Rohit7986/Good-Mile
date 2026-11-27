@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Request a Freight Quote | Good Mile Inc.</title>
+<meta name="description" content="Request a freight quote from Good Mile. Send your lane, equipment and dates, and a person will review your request.">
+
+<link rel="canonical" href="https://goodmile.org/request-a-quote.html">
+<meta property="og:title" content="Request a Freight Quote | Good Mile Inc.">
+<meta property="og:description" content="Request a freight quote from Good Mile. Send your lane, equipment and dates, and a person will review your request.">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/png" href="assets/img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700;800&family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+<div class="container">
+<a class="brand" href="index.html"><img src="assets/img/good-mile-logo.png" alt="Good Mile Freight Brokerage, home" width="202" height="46"></a>
+<button class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false"><span></span></button>
+<nav class="site-nav" aria-label="Primary"><a href="shippers.html">Shippers</a><a href="services.html">Services</a><a href="track.html">Track a Load</a><a href="freight-security.html">Freight Security</a><a href="carriers.html">Carriers</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav>
+<div class="header-actions">
+<a class="btn btn-outline btn-sm" href="login.html">Shipper Login</a>
+<a class="btn btn-primary btn-sm" href="request-a-quote.html">Request a Quote</a>
+</div>
+</div>
+</header>
+<main id="main">
+<section class="page-hero"><div class="container stack"><div class="eyebrow">Request a quote</div><h1>Tell us about your load</h1><p class="lede">A person at Good Mile reviews every request and replies with a quote. We do not show automated prices.</p></div></section><section class="section section-mist"><div class="container"><div class="form-card" style="max-width:920px;margin:0 auto">
+<form class="form" action="#" method="post" enctype="multipart/form-data" data-static>
+<fieldset><legend>Contact</legend><div class="fields">
+<div class="field"><label for="company">Company name</label><input id="company" name="company" type="text" required ></div><div class="field"><label for="contact">Contact name</label><input id="contact" name="contact" type="text" required ></div><div class="field"><label for="email">Email</label><input id="email" name="email" type="email" required ></div><div class="field"><label for="phone">Phone</label><input id="phone" name="phone" type="tel" required ></div>
+</div></fieldset>
+<fieldset><legend>Pickup</legend><div class="fields">
+<div class="field"><label for="pu-city">Pickup city</label><input id="pu-city" name="pu-city" type="text" required ></div><div class="field"><label for="pu-state">Pickup state</label><select id="pu-state" name="pu-state" required><option value="">Select</option><option>AL</option><option>AK</option><option>AZ</option><option>AR</option><option>CA</option><option>CO</option><option>CT</option><option>DE</option><option>FL</option><option>GA</option><option>HI</option><option>ID</option><option>IL</option><option>IN</option><option>IA</option><option>KS</option><option>KY</option><option>LA</option><option>ME</option><option>MD</option><option>MA</option><option>MI</option><option>MN</option><option>MS</option><option>MO</option><option>MT</option><option>NE</option><option>NV</option><option>NH</option><option>NJ</option><option>NM</option><option>NY</option><option>NC</option><option>ND</option><option>OH</option><option>OK</option><option>OR</option><option>PA</option><option>RI</option><option>SC</option><option>SD</option><option>TN</option><option>TX</option><option>UT</option><option>VT</option><option>VA</option><option>WA</option><option>WV</option><option>WI</option><option>WY</option></select></div><div class="field"><label for="pu-zip">Pickup ZIP</label><input id="pu-zip" name="pu-zip" type="text" required inputmode="numeric"></div><div class="field"><label for="pu-date">Pickup date</label><input id="pu-date" name="pu-date" type="date" required ></div><div class="field"><label for="pu-time">Pickup time / appointment <span class="optional">(optional)</span></label><input id="pu-time" name="pu-time" type="text" ></div>
+</div></fieldset>
+<fieldset><legend>Delivery</legend><div class="fields">
+<div class="field"><label for="del-city">Delivery city</label><input id="del-city" name="del-city" type="text" required ></div><div class="field"><label for="del-state">Delivery state</label><select id="del-state" name="del-state" required><option value="">Select</option><option>AL</option><option>AK</option><option>AZ</option><option>AR</option><option>CA</option><option>CO</option><option>CT</option><option>DE</option><option>FL</option><option>GA</option><option>HI</option><option>ID</option><option>IL</option><option>IN</option><option>IA</option><option>KS</option><option>KY</option><option>LA</option><option>ME</option><option>MD</option><option>MA</option><option>MI</option><option>MN</option><option>MS</option><option>MO</option><option>MT</option><option>NE</option><option>NV</option><option>NH</option><option>NJ</option><option>NM</option><option>NY</option><option>NC</option><option>ND</option><option>OH</option><option>OK</option><option>OR</option><option>PA</option><option>RI</option><option>SC</option><option>SD</option><option>TN</option><option>TX</option><option>UT</option><option>VT</option><option>VA</option><option>WA</option><option>WV</option><option>WI</option><option>WY</option></select></div><div class="field"><label for="del-zip">Delivery ZIP</label><input id="del-zip" name="del-zip" type="text" required inputmode="numeric"></div><div class="field"><label for="del-date">Delivery date <span class="optional">(optional)</span></label><input id="del-date" name="del-date" type="date" ></div><div class="field"><label for="del-time">Delivery time / appointment <span class="optional">(optional)</span></label><input id="del-time" name="del-time" type="text" ></div>
+</div></fieldset>
+<fieldset><legend>Freight</legend><div class="fields">
+<div class="field"><label for="equipment">Equipment type</label><select id="equipment" name="equipment" required><option value="">Select</option><option>Refrigerated</option><option>Dry Van</option><option>Flatbed / Open Deck</option><option>Power Only</option><option>Other</option></select></div><div class="field"><label for="load-type">Load type</label><select id="load-type" name="load-type" required><option value="">Select</option><option>Full Truckload</option><option>LTL</option><option>Other</option></select></div><div class="field"><label for="commodity">Commodity</label><input id="commodity" name="commodity" type="text" required ></div><div class="field"><label for="weight">Weight (lbs)</label><input id="weight" name="weight" type="number" required min="1"></div><div class="field"><label for="pallets">Pallet count <span class="optional">(optional)</span></label><input id="pallets" name="pallets" type="number" min="0"></div>
+</div>
+<div class="fields" id="reefer-fields" hidden>
+<div class="field"><label for="set-temp">Set temperature <span class="optional">(optional)</span></label><input id="set-temp" name="set-temp" type="number" step="1"></div><div class="field"><label for="temp-unit">Temperature unit <span class="optional">(optional)</span></label><select id="temp-unit" name="temp-unit"><option value="">Select</option><option>F</option><option>C</option></select></div><div class="field"><label for="temp-type">Freight type <span class="optional">(optional)</span></label><select id="temp-type" name="temp-type"><option value="">Select</option><option>Frozen</option><option>Chilled</option><option>Produce</option><option>Other</option></select></div><div class="field"><label for="reefer-mode">Continuous or cycle <span class="optional">(optional)</span></label><select id="reefer-mode" name="reefer-mode"><option value="">Select</option><option>Continuous</option><option>Cycle</option></select></div>
+</div>
+<div class="fields"><div class="field wide"><label for="instructions">Special instructions <span class="optional">(optional)</span></label><textarea id="instructions" name="instructions"></textarea></div>
+<div class="field wide"><label for="attachment">Shipment document <span class="optional">(optional)</span></label><input id="attachment" name="attachment" type="file" accept=".pdf,.png,.jpg,.jpeg,.doc,.docx,.xls,.xlsx"><span class="hint">PDF, image or Office file.</span></div></div>
+</fieldset>
+<div class="form-status" role="status" tabindex="-1">This form is not connected to a server yet. Nothing was sent. Please call (916) 743-0050 or email dispatch@goodmile.org for now.</div>
+<div class="actions"><button class="btn btn-primary" type="submit">Send quote request</button><span style="color:var(--muted);font-size:15px">Prefer to talk? Call <a href="tel:+19167430050">(916) 743-0050</a>.</span></div>
+</form></div></div></section>
+</main>
+<footer class="site-footer">
+<div class="container">
+<div class="cols">
+<div class="about">
+<img src="assets/img/good-mile-logo-reversed.png" alt="Good Mile Freight Brokerage" width="228" height="52">
+<a href="tel:+19167430050"><strong>(916) 743-0050</strong></a>
+<a href="mailto:info@goodmile.org">info@goodmile.org</a>
+<div>USDOT 7599195 &middot; MC-69812923</div>
+<div>[MAILING ADDRESS, TO BE CONFIRMED]</div>
+</div>
+<nav aria-label="Shippers"><h2>Shippers</h2>
+<a href="request-a-quote.html">Request a Quote</a><a href="track.html">Track a Load</a><a href="login.html">Shipper Login</a><a href="freight-security.html">Freight Security</a><a href="verify.html">Verify Good Mile</a></nav>
+<nav aria-label="Carriers"><h2>Carriers</h2>
+<a href="carriers.html#become-a-carrier">Become a Carrier</a><a href="carriers.html#setup">Carrier Setup</a><a href="carriers.html#support">Load Support</a><a href="carriers.html#accounting">Accounting</a></nav>
+<div><h2>Departments</h2>
+<a href="mailto:dispatch@goodmile.org">Dispatch: dispatch@goodmile.org</a><a href="mailto:accounting@goodmile.org">Accounting: accounting@goodmile.org</a><a href="mailto:info@goodmile.org">General: info@goodmile.org</a></div>
+</div>
+<div class="legal">
+<div>&copy; <span id="year">2026</span> Good Mile Inc. Good Mile is a freight broker and does not operate its own trucks.</div>
+<nav aria-label="Legal"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="privacy.html#accessibility">Accessibility</a></nav>
+</div>
+</div>
+</footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
